@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461;netcoreapp2.2</TargetFrameworks>
+    <AssemblyName>ErraticMotion.TestFramework</AssemblyName>
+    <RootNamespace>ErraticMotion</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.2</Version>
+    <Authors>Rob Ives</Authors>
+    <Company>Erratic Motion</Company>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/erraticmotion/given-when-then</PackageProjectUrl>
+    <PackageTags>TDD BDD Given When Then Test Framework</PackageTags>
+    <Description>Given-When-Then test framework that integrates NUnit and Ninject for unit and integration testing.</Description>
+    <PackageReleaseNotes>Test Doubles, Interaction Points, and State Verification types added.</PackageReleaseNotes>
+    <Copyright>Copyright Erratic Motion Ltd 2018</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.6.0" />
+    <PackageReference Include="Moq" Version="4.10.1" />
+    <PackageReference Include="Ninject" Version="3.3.4" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+  </ItemGroup>
+
+</Project>
